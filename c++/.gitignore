@@ -1,6 +1,19 @@
+# Files without extensions
+*
+!/**/
+!*.*
+
 # C++ First
 # Prerequisites
 *.d
+
+# Debugging folder
+*.dSYM
+
+# debug file
+debug.txt
+
+
 
 # Compiled Object files
 *.slo
@@ -31,5 +44,3 @@
 *.exe
 *.out
 *.app
-
-

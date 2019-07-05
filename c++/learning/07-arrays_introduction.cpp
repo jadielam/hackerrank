@@ -1,14 +1,13 @@
-#include <cstdio>
 #include <vector>
 #include <iostream>
 using namespace std;
 
-
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int N;
     cin >> N;
     vector<int> ints = vector<int>();
+
     for (int i = 0; i < N; i++) {
         int b;
         cin >> b;
@@ -19,4 +18,6 @@ int main() {
         cout << ints[i];
         if (i != 0) printf(" ");
     }
+
+    return 0;
 }
