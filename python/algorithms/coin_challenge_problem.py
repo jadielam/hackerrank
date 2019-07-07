@@ -5,6 +5,8 @@ import random
 import re
 import sys
 
+# Not finished
+
 # Complete the getWays function below.    
 def get_ways(n, c):
     '''
